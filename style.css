@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: yellow;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+}
+header img {
+    width: 100px;
+}
+section {
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 10px;
+    width: 80%;
+    text-align: center;
+}
+.aliado, .vilao {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+.aliado img, .vilao img {
+    width: 150px;
+    border-radius: 10px;
+}
+footer {
+    background-color: gray;
+    padding: 10px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+#sobre{
+    display: flex;
+    align-items: center
+}
